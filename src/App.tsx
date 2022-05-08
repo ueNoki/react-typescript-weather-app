@@ -12,7 +12,7 @@ type ResultsStateType = {
   temperature: string;
   conditionText: string;
   icon: string;
-}
+};
 
 function App() {
   const [city, setCity] = useState<string>("");

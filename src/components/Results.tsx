@@ -9,7 +9,7 @@ type ResultsStateType = {
 }
 
 
-const Result = (props: ResultsStateType) => {
+const Result = (props: any) => {
   return (
     <h1>気象データ{props.results.country}</h1>
   );
